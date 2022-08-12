@@ -1,0 +1,21 @@
+{
+    "name": "trantrung1295/shopify-laravel",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tran Trung",
+            "email": "trantrung121995@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NtShopify\\": "src/"
+        }
+    }
+}
